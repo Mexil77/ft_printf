@@ -6,7 +6,7 @@
 /*   By: emgarcia <emgarcia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/31 17:26:58 by emgarcia          #+#    #+#             */
-/*   Updated: 2021/09/01 20:13:45 by emgarcia         ###   ########.fr       */
+/*   Updated: 2021/09/02 16:48:54 by emgarcia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,7 @@ char	*ft_ptr_chgbase(uintptr_t nbr, char *base)
 	strbase[0] = '0';
 	strbase[1] = 'x';
 	if (nbr)
-		strbase[max_pow + 3] = '\0';
+		strbase[max_pow + 2] = '\0';
 	else
 		strbase[3] = '\0';
 	ft_imp_ptr_nums(nbr, max_pow, base, strbase);
